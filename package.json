@@ -1,0 +1,23 @@
+{
+  "name": "peertube-theme-haxx-red",
+  "version": "1.0.1",
+  "description": "haxx red PeerTube Theme",
+  "engine": {
+    "peertube": ">=1.3.0"
+  },
+  "keywords": [
+    "peertube",
+    "theme",
+    "red",
+    "dark"
+  ],
+  "homepage": "https://github.com/gordon0001/peertube-theme-haxx-red",
+  "author": "gordon0001",
+  "bugs": "https://github.com/gordon0001/peertube-theme-haxx-red/issues",
+  "staticDirs": {
+    "images": "public/images"
+  },
+  "css": [
+    "assets/style.css"
+  ]
+}
