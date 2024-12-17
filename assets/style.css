@@ -134,8 +134,8 @@ body {
   color: var(--mainForegroundColor) !important;
 }
 
-.root-header {
-  box-shadow: 0 1px 3px rgba(200, 200, 200, 0.1) !important;
+.root-header {--primary
+  box-shadow: 0 1px 3px rgb--primarya(200, 200, 200, 0.1) !important;
 }
 
 input#search-video {
@@ -144,4 +144,36 @@ input#search-video {
 
 .logged-in-block {
   background-color: var(--submenuBackgroundColor) !important;
+}
+
+.primary-button, .primary-button:active, .primary-button.active, .primary-button:focus {
+  color: #000;
+  background-color: var(--mainColor);
+  border: 1px solid #fff;
+}
+
+.alert.pt-alert-primary {
+  color: #000;
+  background-color: var(--mainColor);
+  border: 2px solid #fff;
+}
+
+.primary-button:hover {
+  color: #000;
+  background-color: var(--mainColor);
+}
+
+.pt-badge.badge-primary {
+  color: #000;
+  background-color: var(--mainColor);
+}
+
+.menu-button {
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #000;
 }
